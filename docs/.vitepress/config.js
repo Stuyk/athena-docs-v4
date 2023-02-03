@@ -1,7 +1,7 @@
 import { updateUserPlugins } from './userPlugins';
 import { getSidebar } from './sidebar';
 
-const BASE_URL = '/'
+const BASE_URL = '/athena-docs-v4/'
 
 export default (async () => {
     await updateUserPlugins();
