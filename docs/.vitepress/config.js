@@ -8,7 +8,7 @@ export default (async () => {
 
     return {
         base: BASE_URL,
-        title: 'Athena Framework',
+        title: 'v4 Athena Framework',
         description: 'Roleplay Script for GTA:V',
         lastUpdated: true,
         cleanUrls: 'without-subfolders',
@@ -58,6 +58,17 @@ export default (async () => {
                     items: [
                         {
                             text: 'Athena Toolkit', link: '/tools/toolkit',
+                        },
+                    ]
+                },
+                {
+                    text: 'Version',
+                    items: [
+                        {
+                            text: 'latest', link: 'https://athenaframework.com',
+                        },
+                        {
+                            text: 'v4', link: 'https://stuyk.github.io/athena-docs-v4/',
                         },
                     ]
                 },
